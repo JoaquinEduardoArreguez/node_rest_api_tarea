@@ -84,11 +84,3 @@ router.put("/books/:id", (req, res) => {
 });
 
 module.exports = router;
-
-/*
-{
-  "id": "1",
-  "name": "The Fellowship of the ring",
-  "authorId": "1"
-}
-*/

@@ -88,11 +88,9 @@ router.delete("/authors/:id/:deleteBooks", (req, res) => {
       return book.authorId === req.params.id;
     });
     if (hasBooks && deleteBooks !== "true") {
-      res
-        .status(400)
-        .json({
-          statusCode: `{AuthorId:${authorId}} has books asociated, delete them first or send /authors/:id/true`,
-        });
+      res.status(400).json({
+        statusCode: `{AuthorId:${authorId}} has books asociated, delete them first or send /authors/:id/true`,
+      });
     } else {
       _.remove(authors, (author) => {
         return Number(author.id) == authorId;
@@ -105,12 +103,10 @@ router.delete("/authors/:id/:deleteBooks", (req, res) => {
         .json({ statusCode: `{AuthorId:${authorId}} and it's books deleted` });
     }
   } else {
-    res
-      .status(400)
-      .json({
-        statusCode:
-          "Bad request, {authorId} is not a number or {deleteBooks} != 'true'",
-      });
+    res.status(400).json({
+      statusCode:
+        "Bad request, {authorId} is not a number or {deleteBooks} != 'true'",
+    });
   }
 });
 
