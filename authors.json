@@ -1,0 +1,16 @@
+[{
+        "id": "1",
+        "name": "John Ronald Reuel",
+        "lastname": "Tolkien"
+    },
+    {
+        "id": "2",
+        "name": "Joanne Kathleen",
+        "lastname": "Rowling"
+    },
+    {
+        "id": "3",
+        "name": "Gabriel",
+        "lastname": "García Márquez"
+    }
+]

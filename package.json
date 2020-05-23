@@ -1,0 +1,29 @@
+{
+  "name": "node_rest_api_tarea",
+  "version": "1.0.0",
+  "description": "segundo tp , node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaquinEduardoArreguez/node_rest_api_tarea.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaquinEduardoArreguez/node_rest_api_tarea/issues"
+  },
+  "homepage": "https://github.com/JoaquinEduardoArreguez/node_rest_api_tarea#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
