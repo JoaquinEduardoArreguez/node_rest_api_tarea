@@ -1,4 +1,7 @@
 # node_rest_api_tarea
+## You can test the API with Postman, importing this config file:
+## node_rest_api_tarea_joaquin_arreguez.postman_collection
+
 Second node workshop for Simtlix/Incluit.
 Implements Rest API with endpoints allowing to : 
 
@@ -10,3 +13,9 @@ Implements Rest API with endpoints allowing to :
 6- Modify a book
 7- Delete a author
 8- Delete a book
+
+extras:
+
+9- Get all books
+10- Delete an author and it's associated books
+11- Postman config file to test the API : node_rest_api_tarea_joaquin_arreguez.postman_collection
